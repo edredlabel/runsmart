@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 15px);
+  padding-left: var(--bs-gutter-x, 15px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  --bs-gutter-x: 30px;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}

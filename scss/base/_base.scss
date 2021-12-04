@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+	&:before {
+		box-sizing: border-box;
+	}
+	&:after {
+		box-sizing: border-box;
+	}
+}
+
+body {
+	font-family: var(--main-font);
+	font-size: 14px;
+	height: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	max-width: 982px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.page-footer {
+	margin-top: auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+img, svg, iframe {
+	vertical-align: top;
+}
+
+::placeholder {
+	opacity: 1;
+}
+
+::selection {
+	background-color:#000;
+	color: #fff;
+}

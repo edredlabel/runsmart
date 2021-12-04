@@ -1,0 +1,19 @@
+@import 'abstract/variables';
+@import 'abstract/typography';
+@import 'abstract/mixins';
+
+@import 'base/base';
+@import 'base/reset';
+
+@import 'components/buttons';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'sections/advantage';
+@import 'sections/consult';
+@import 'sections/slider';
+@import 'sections/catalog';
+@import 'sections/feedback';
+@import 'sections/modal';
+
+@import 'media';

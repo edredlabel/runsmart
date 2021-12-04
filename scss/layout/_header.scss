@@ -1,0 +1,143 @@
+.header {
+    padding: 21px 0 93px 0;
+    background-image: url(/img/header/bg.jpg);
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 91px;
+}
+
+.header-text {
+    display: flex;
+}
+
+.header__text-official {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.header__text-undertext {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--white);
+    margin: 0;
+}
+
+.header__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__phone-num {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--white);
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+
+.header__phone-btn {
+    width: 153px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    background: var(--redBtn);
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--white);
+    cursor: pointer;
+}
+.header__phone-btn:hover {
+    transition: 0.5s;
+    background: rgb(184, 60, 60);
+}
+
+
+.header__section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 42px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.header__subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.header__elements {
+    display: flex;
+    justify-content: space-between;
+    width: 424px;
+}
+
+.header__elements-item {
+    text-align: center;
+}
+
+.header__elements-delivery {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--white);
+}
+
+.header__button {
+    text-align: right;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: var(--white);
+    span {
+        align-items: center;
+        text-transform: lowercase;
+    }
+    a {
+        color: var(--white);
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.header__button-btn {
+    display: block;
+    width: 303px;
+    height: 54px;
+    border: none;
+    border-radius: 5px;
+    background: var(--redBtn);
+
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,61 @@
+.consult {
+    padding: 100px 0 108px 0;
+    background-image: url(/img/consult/bg2.jpg);
+    background-size: cover;
+}
+
+.consult__title {
+    width: 830px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: var(--white);
+    text-transform: uppercase;
+    margin: 0;  
+}
+
+.consult__subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white);
+    width: 426px;
+    margin: 8px 0 36px 0;
+}
+
+input  {
+    width: 303px;
+    height: 54px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    color: #4B4B4B;
+    font-size: 14px;
+    line-height: 66px;
+    padding-left: 20px;
+}
+input:last-child {
+    margin-bottom: 18px;
+}
+
+.cosult__button-btn {
+    width: 303px;
+    height: 58px;
+    border: none;
+    border-radius: 10px;
+    background: var(--redBtn);
+
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.cosult__button-btn:hover {
+    background: #6b3535;;
+}
+
+
+
+
+
+
+  

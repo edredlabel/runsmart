@@ -1,0 +1,112 @@
+.catalog {
+    padding-bottom: 79px;
+}
+
+.catalog-title {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.catalog-header-btn {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.change-btn {
+    width: 222px;
+    height: 52px;
+    transform: skew(-20deg, 0deg);
+    margin-right: 10px;
+    background:#fff;
+    border: 2px solid #D0D0D0;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #6B6B6B;
+    text-transform: uppercase;
+}
+
+.change-btn:hover {
+    background: #C70101;
+    color: #fff;
+    border: none;
+}
+
+.catalog__block {
+    margin-top: 57px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px;
+}
+.catalog__block-item {
+    width: 303px;
+    padding-top: 20px;
+    border: 2px solid #E8E8E8;
+    text-align: center;
+}
+
+.catalog__block-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #0D0D0D;
+}
+
+.catalog__block-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0D0D0D;
+}
+
+.catalog__btn-more {
+    border: none;
+    background: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #C70101;
+    cursor: pointer;
+}
+.catalog__btn-more:hover {
+    text-decoration: underline;
+}
+
+.catalog-hr {
+    border: 1px solid #e8e8e8;
+    margin: 17px 20px 19px 20px;
+}
+
+.catalog__block-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+}
+.catalog__block-price {
+    strike {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 14px;
+        color: #555555;
+    }
+}
+.catalog__btn-buy {
+    width: 135px;
+    height: 44px;
+    background:#C70101;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.catalog__btn-buy:hover {
+    background: #942929;
+}
+
